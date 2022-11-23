@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.background{
+    width: 100%;
+    position: relative;
+}
+.background img{
+    width: 100%;
+    height: 100vh;
+}
+.rongbien{
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    z-index: 3;
+}
+.rongbien img{
+    width: 350px;
+    height: 250px;
+    transform: translate(-50%);
+}
+.bongbong {
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    z-index: 4;
+}
+.bongbong img{
+    width: 250px;
+    height: 150px;
+
+}
+.conso {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    z-index: 1;
+}
+.conso img{
+    width:150px ;
+    height:150px ;
+}
+.rong2{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    z-index: 2;
+}
+.rong2 img{
+    width: 350px;
+    height:350px;
+    z-index: 1;
+}
+.concamap{
+    position: absolute;
+	-webkit-animation-name: concamap;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+}
+.concamap img{
+    width: 300px;
+    height: 200px;
+}
+
+@-webkit-keyframes concamap
+{
+	0%   {left:0px; top:50%;}
+	10%  {left:5%; top:40%;transform: rotate(-20deg)}
+	20%  {left:10%; top:50%;transform: rotate(10deg)}
+    30%  {left:15%; top:40%;transform: rotate(-20deg)}
+	40%  {left:25%; top:50%;transform: rotate(10deg)}
+    50%  {left:35%; top:40%;transform: rotate(-20deg)}
+	60%  {left:45%; top:50%;transform: rotate(10deg)}
+    70%  {left:55%; top:40%;transform: rotate(-20deg)}
+    80%  {left:65%; top:50%;transform: rotate(10deg)}
+	90%  {left:75%; top:40%;transform: rotate(-20deg)}
+	100% {left:85%; top:50%;transform: rotate(10deg)}
+}
+
+.consua{
+    position: absolute;
+    z-index: 5;
+	-webkit-animation-name: consua;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+}
+.consua img{
+    width: 100px;
+    height: 100px;
+}
+@-webkit-keyframes consua
+{
+	0%   {left:30%; bottom:0%;}
+    10%  {left:30%; bottom:5%;}
+	20%  {left:30%; bottom:10%;}
+    30%  {left:30%; bottom:15%;}
+	40%  {left:30%; bottom:25%;}
+    50%  {left:30%; bottom:35%;}
+	60%  {left:30%; bottom:45%;}
+    70%  {left:30%; bottom:55%;}
+    80%  {left:30%; bottom:65%;}
+	90%  {left:30%; bottom:75%;}
+	100% {left:30%; bottom:85%;}
+}
+
+.conrua
+{
+	position: absolute;
+	right:0; top:400px;
+	height: 147px;
+	-webkit-animation-name: conrua;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+    
+}
+.conrua img{
+    width: 100px;
+    height: 100px;
+}
+@-webkit-keyframes conrua
+{
+	0%   {left:100px; top:400px;}
+	1%   {left:100px; top:400px;}
+	20%  {left:700px; top:400px;}
+	40%  {left:700px; top:400px;-webkit-transform:scaleX(-1);}
+	60%  {right:700px; top:100px;}
+	90%  {right:500px; top:100px;}
+	100% {right:500px; top:100px;}
+}
+.cavang {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+	-webkit-animation-name: Cavang;
+	-webkit-animation-duration: 7s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;	
+	-webkit-transform:scaleX(-1)
+}
+.cavang img{
+    width: 150px;
+    height: 150px; 
+}
+@-webkit-keyframes Cavang
+{
+	0%   {right:0%; top:20%;}
+	10%  {right:5%;  top:20%;}
+	20%  {right:10%; top:20%;}
+    30%  {right:15%; top:20%;}
+	40%  {right:25%; top:20%;}
+    50%  {right:35%; top:20%;}
+	60%  {right:45%; top:20%;}
+    70%  {right:55%; top:20%;}
+    80%  {right:70%; top:20%;}
+	90%  {right:80%; top:20%;}
+	100% {right:85%; top:20%;}
+}
